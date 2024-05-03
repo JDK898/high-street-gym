@@ -1,0 +1,58 @@
+.Nav {
+    /* margin: 0 8%; */
+    background-color: #008b8b;
+    justify-content: space-evenly;
+}
+
+#Navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Navbar>a>img {
+    background-color: #ffffff00;
+    border: none;
+    max-width: auto;
+    min-height: 50px;
+    padding: 0 0 0 4%;
+}
+
+#Navbar:last-child {
+    padding-right: 4%;
+}
+#Navbar>a:first-child {
+    background-color: #ffffff00;
+    border: none;
+}
+
+#Navbar>* {
+    display: flex;
+    align-self: center;
+    padding: 5px 8px;
+    border: 2.5px black;
+    border-radius: 5px;
+    background-color: #E49B0F;
+    color: #ffffff;
+    
+}
+
+#Navbar>*:hover {
+    background-color: #b47a0c;
+}
+
+#Navbar>a>img:hover {
+    background-color: #ffffff00;
+    border: none;
+    max-height: 85px;
+    padding: 0 0 0 4%;
+
+}
+
+/* TODO: Medai Queries For mobile */
+
+@media (max-width: 512px) {
+    body {
+        background-color: red;
+    }
+    
+}

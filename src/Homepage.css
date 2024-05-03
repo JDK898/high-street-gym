@@ -1,0 +1,15 @@
+.spacer {
+    height: 750px;
+    background-color: antiquewhite;
+}
+
+.Cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ph {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
