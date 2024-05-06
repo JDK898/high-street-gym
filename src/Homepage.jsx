@@ -1,18 +1,19 @@
 import "./Homepage.css"
 import Header from "./Header"
-import Tile from "./Tile"
+import Tile from "./components/tile/Tile"
 
 function Homepage() {
     return (
+        // TODO: Accessability information 
         <>
             <Header />
             <div className="spacer"></div>
-            <section className="Cont">
-                <div id="ph">
-                    <h3>Ph:</h3>
-                    <p>70~~ ~~~ ~~~</p>
-                </div>
-            </section>
+            <div className="info">
+                <Tile contentType="Ph:" content="70-- --- ---" type="AS" />
+                <Tile contentType="A" type="" content="" />
+                <Tile contentType="B" type="" content="" />
+            </div>
+
         </>
     )
 }

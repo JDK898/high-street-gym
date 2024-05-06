@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import "./Header.css"
 
 function Header() {
-
+    // TODO: Accessability information 
     return (
         <header className="Nav">
             <nav id="Navbar">

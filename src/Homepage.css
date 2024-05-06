@@ -3,13 +3,18 @@
     background-color: antiquewhite;
 }
 
-.Cont {
+.info {
+    margin: 0 150px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#ph {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+@media (max-width: 950px) {
+    .info {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
 }

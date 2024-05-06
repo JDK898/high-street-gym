@@ -1,4 +1,4 @@
-.Nav {
+header {
     /* margin: 0 8%; */
     background-color: #008b8b;
     justify-content: space-evenly;
@@ -8,6 +8,16 @@
     display: flex;
     justify-content: space-between;
 }
+#Navbar>a:last-child {
+    min-height: 24px;
+    min-width: 55px;
+    flex-wrap: nowrap;
+}
+
+/* Specify the middle elements of the nav bar */
+/* #Navbar>*:not(:first-child):not(:last-child) {
+    justify-content: space-evenly;
+} */
 
 #Navbar>a>img {
     background-color: #ffffff00;
@@ -20,6 +30,7 @@
 #Navbar:last-child {
     padding-right: 4%;
 }
+
 #Navbar>a:first-child {
     background-color: #ffffff00;
     border: none;
@@ -33,7 +44,7 @@
     border-radius: 5px;
     background-color: #E49B0F;
     color: #ffffff;
-    
+
 }
 
 #Navbar>*:hover {
@@ -48,11 +59,11 @@
 
 }
 
-/* TODO: Medai Queries For mobile */
+/* TODO: Media Queries For mobile burger menu */
 
 @media (max-width: 512px) {
     body {
         background-color: red;
     }
-    
+
 }
