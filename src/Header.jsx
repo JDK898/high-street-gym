@@ -10,7 +10,7 @@ function Header() {
                 <Link to="/">
                     <img src="images\image-regular.svg" alt="High street gym logo" />
                 </Link>
-                <Link to="#">Home</Link>
+                <Link to="/">Home</Link>
                 <Link to="#">Blog</Link>
                 <Link to="#">Lessons</Link>
                 <Link to="#">About</Link>

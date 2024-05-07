@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Homepage from './Homepage.jsx'
+import Login from './Login.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
@@ -11,7 +12,8 @@ const router = createBrowserRouter([
     element: <Homepage />
   },
   {
-
+    path: "/Login.jsx",
+    element: <Login/>
   }
 
 ])
