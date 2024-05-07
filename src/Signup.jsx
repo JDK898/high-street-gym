@@ -16,7 +16,10 @@ function Signup() {
                 <Details inputtype="tel" inputname="Phone Number" inputid="user" />
                 <Details inputtype="email" inputname="email" inputid="user" />
                 <Details inputtype="password" inputname="password" inputid="user" />
-                <input type="button" name="" id="" />
+            </div>
+            <div className="Flex space-x-2 ">
+                <button type="submit">Join</button>
+                <Link to={"/Login.jsx"}>Back</Link>
             </div>
 
 
