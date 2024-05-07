@@ -14,7 +14,7 @@ function Header() {
                 <Link to="#">Blog</Link>
                 <Link to="#">Lessons</Link>
                 <Link to="#">About</Link>
-                <Link to="#">Sign In</Link>
+                <Link to="/Login.jsx">Sign In</Link>
             </nav>
         </header>
     )

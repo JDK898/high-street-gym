@@ -1,7 +1,8 @@
-import "./Login.css"
+import { Link } from "react-router-dom"
 import Details from "./components/Forms/Clientforms.jsx"
-import Header from "./Header"
-import Btn from "./components/Forms/button.jsx"
+import Header from "./Header.jsx"
+import "./Login.css"
+
 
 
 function Login() {
@@ -14,6 +15,9 @@ function Login() {
             <Details inputtype="text" inputname="Username" inputid="user" />
             <Details inputtype="password" inputname="Password" inputid="PW" />
             {/* TODO: add Login and join btn */}
+            {/* <input type="button" value="" content="Login"/> */}
+            <Link href="#">Login</Link>
+            <Link to={"/Signup.jsx"}>Join Now!</Link>
 
             {/* <Link href="#">Reset Password</Link> */}
         </>
