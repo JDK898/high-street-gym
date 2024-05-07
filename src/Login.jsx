@@ -12,11 +12,11 @@ function Login() {
             <h1 className="text-3xl">Welcom Back</h1>
             <img src="https://picsum.photos/400/400" alt="stock image" className="" />
             {/* TODO: fix invisable sytling problem */}
-            <Details inputtype="text" inputname="Username" inputid="user" />
+            <Details inputtype="text" inputname="Username" inputid="user"/>
             <Details inputtype="password" inputname="Password" inputid="PW" />
             {/* TODO: add Login and join btn */}
             {/* <input type="button" value="" content="Login"/> */}
-            <Link href="#">Login</Link>
+            <Link href="#" className="">Login</Link>
             <Link to={"/Signup.jsx"}>Join Now!</Link>
 
             {/* <Link href="#">Reset Password</Link> */}

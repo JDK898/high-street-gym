@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom"
 import Header from "./Header"
 import Details from "./components/Forms/Clientforms.jsx"
-import "./Signup.css"
+// import "/Signup.css"
 
 function Signup() {
     return (
         <>
             <Header />
-            <h1>Welcom to the family</h1>
+            <h1 className="text-3xl">Welcom to the family</h1>
             <img src="https://picsum.photos/400/400" alt="stock image" className="" />
             <div>
                 <Details inputtype="text" inputname="First Name" inputid="user" />
