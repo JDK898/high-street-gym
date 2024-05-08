@@ -12,7 +12,7 @@ function Header() {
                 </Link>
                 <Link to="/">Home</Link>
                 <Link to="#">Blog</Link>
-                <Link to="#">Lessons</Link>
+                <Link to="/Lessons.jsx">Lessons</Link>
                 <Link to="#">About</Link>
                 <Link to="/Login.jsx">Sign In</Link>
             </nav>
