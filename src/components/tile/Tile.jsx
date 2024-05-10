@@ -5,7 +5,7 @@ function Tile({ contentType, content, type }) {
     // TODO: Accessability information 
 
     return (
-        <section>
+        <section className="Tile">
             <h3>{contentType}</h3>
             <Link to={{ type }}>{content}</Link>
         </section>
