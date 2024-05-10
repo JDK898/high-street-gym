@@ -6,6 +6,8 @@ import Login from './Login.jsx'
 import Signup from './Signup.jsx'
 import './index.css'
 import Lessons from './Lessons.jsx'
+import Blogs from './Blogs.jsx'
+import BlogCreate from './Blogcreate.jsx'
 
 
 const router = createBrowserRouter([
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
   {
     path: "/Lessons.jsx",
     element: <Lessons/>
+  },
+  {
+    path: "/Blogs.jsx",
+    element: <Blogs/>
+  },
+  {
+    path: "/Blogcreate.jsx",
+    element: <BlogCreate/>
   }
 
 ])
