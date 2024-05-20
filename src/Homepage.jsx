@@ -9,10 +9,10 @@ function Homepage() {
             <Header />
             <div className="spacer"></div>
             <div className="info">
-                <Tile contentType="Ph:" content="70-- --- ---" type="AS" />
-                <Tile contentType="Email:" content="adlkfahsdfp dsaadsfh d" type="AS" />
-                <Tile contentType="Loaction" type="" content="asdfhasdf" />
-                <Tile contentType="Trading hours" type="" content="ashdasd" />
+                <Tile contentType="Ph: " content=" 70-- --- ---" type="AS" />
+                <Tile contentType="Email: " content=" high.street.gym@emali.com" type="AS" /> 
+                <Tile contentType="Loaction:" type="" content=" Lorem, ipsum." /> 
+                <Tile contentType="Trading hours:" type="" content="Lorem, ipsum dolor." /> 
             </div>
 
         </>

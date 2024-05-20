@@ -22,10 +22,6 @@ function Signup() {
                 <Link to={"/Login.jsx"}>Back</Link>
             </div>
 
-
-
-
-
         </>
     )
 }
