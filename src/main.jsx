@@ -8,6 +8,7 @@ import './index.css'
 import Lessons from './Lessons.jsx'
 import Blogs from './Blogs.jsx'
 import BlogCreate from './Blogcreate.jsx'
+import About from './About.jsx'
 
 
 const router = createBrowserRouter([
@@ -16,24 +17,28 @@ const router = createBrowserRouter([
     element: <Homepage />
   },
   {
-    path: "/Login.jsx",
+    path: "/Login",
     element: <Login/>
   },
   {
-    path: "/Signup.jsx",
+    path: "/Signup",
     element: <Signup/>
   },
   {
-    path: "/Lessons.jsx",
+    path: "/Lessons",
     element: <Lessons/>
   },
   {
-    path: "/Blogs.jsx",
+    path: "/Blogs",
     element: <Blogs/>
   },
   {
-    path: "/Blogcreate.jsx",
+    path: "/Blogcreate",
     element: <BlogCreate/>
+  },
+  {
+    path: "/About",
+    element: <About/>
   }
 
 ])

@@ -19,7 +19,7 @@ function Login() {
                 {/* <input type="button" value="" content="Login"/> */}
                 <div className="Flex space-x-2 ">
                     <button type="submit" className="border-2 border-solid border-black border-r-2">Login</button>
-                    <Link to={"/Signup.jsx"}>Join Now!</Link>
+                    <Link to={"/Signup"}>Join Now!</Link>
                 </div>
             </div>
 

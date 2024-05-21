@@ -19,7 +19,7 @@ function Signup() {
             </div>
             <div className="Flex space-x-2 ">
                 <button type="submit">Join</button>
-                <Link to={"/Login.jsx"}>Back</Link>
+                <Link to={"/Login"}>Back</Link>
             </div>
 
         </>

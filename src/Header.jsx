@@ -11,10 +11,10 @@ function Header() {
                     <img src="images\image-regular.svg" alt="High street gym logo" />
                 </Link>
                 <Link to="/">Home</Link>
-                <Link to="/Blogs.jsx">Blog</Link>
-                <Link to="/Lessons.jsx">Lessons</Link>
-                <Link to="#">About</Link>
-                <Link to="/Login.jsx">Sign In</Link>
+                <Link to="/Blogs">Blog</Link>
+                <Link to="/Lessons">Lessons</Link>
+                <Link to="/About">About</Link>
+                <Link to="/Login">Sign In</Link>
             </nav>
         </header>
     )
