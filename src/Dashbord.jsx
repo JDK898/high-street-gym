@@ -1,15 +1,15 @@
 import Header from "./Header";
 import Footer from "./components/Footer";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Dashbord() {
     return (
         <>
             <Header />
             <div>
-                
+
             </div>
-            <Footer/>
+            <Footer />
         </>
     )
 }

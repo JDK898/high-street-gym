@@ -6,15 +6,17 @@ import Login from './Login.jsx'
 import Signup from './Signup.jsx'
 import './index.css'
 import Lessons from './Lessons.jsx'
+import Dashbord from './Dashbord.jsx'
 import Blogs from './Blogs.jsx'
 import BlogCreate from './Blogcreate.jsx'
 import About from './About.jsx'
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Homepage />
+    element: <Homepage/>
   },
   {
     path: "/Login",
@@ -39,6 +41,10 @@ const router = createBrowserRouter([
   {
     path: "/About",
     element: <About/>
+  },
+  {
+    path: "/Dashbord",
+    element: <Dashbord/>
   }
 
 ])
