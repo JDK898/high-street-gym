@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom"
 import Header from "./Header.jsx"
+import Footer from "./components/Footer.jsx"
 import Details from "./components/Forms/Clientforms.jsx"
 import "./Login.css"
+
 
 
 
@@ -22,6 +24,7 @@ function Login() {
                     <Link to={"/Signup"}>Join Now!</Link>
                 </div>
             </div>
+            <Footer/>
 
 
 

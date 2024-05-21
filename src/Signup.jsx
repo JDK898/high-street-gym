@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import Header from "./Header"
+import Footer from "./components/Footer.jsx"
 import Details from "./components/Forms/Clientforms.jsx"
 // import "/Signup.css"
 
@@ -21,6 +22,7 @@ function Signup() {
                 <button type="submit">Join</button>
                 <Link to={"/Login"}>Back</Link>
             </div>
+            <Footer />
 
         </>
     )

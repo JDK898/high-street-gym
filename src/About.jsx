@@ -1,4 +1,5 @@
 import Header from "./Header";
+import Footer from "./components/Footer";
 
 function About() {
     return (
@@ -9,6 +10,7 @@ function About() {
                     <p>This is some placeholder text</p>
                 </div>
             </section>
+            <Footer/>
         </>
 
     )

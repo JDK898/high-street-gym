@@ -1,5 +1,6 @@
 // import { Link } from "react-router-dom";
 import Header from "./Header";
+import Footer from "./components/Footer";
 import "./Blogs.css"
 import Blogpost from "./components/tile/blogpost";
 import Filter from "./components/Filter";
@@ -27,6 +28,7 @@ function Blogs() {
                 <Blogpost Title="In my opinon" Author="Bobby Jone" Blogcontent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus alias quo harum sint, minus enim." />
                 <Blogpost Title="In my opinon" Author="Bobby Jone" Blogcontent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus alias quo harum sint, minus enim." />
             </section>
+            <Footer/>
         </>
     )
 }
