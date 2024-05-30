@@ -13,7 +13,7 @@ function Classes({ ClassType, description, Classlink}) {
                 <p className="">
                     {description}
                 </p>
-                <input type="checkbox" name="booked" id="" />
+                {/* <input type="checkbox" name="booked" id="" /> */}
             </section>
         </Link>
 
