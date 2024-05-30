@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 
 function Header() {
     // TODO: Accessability information 
+    // TODO: Colapse to a burger menu for mobile viewports
     return (
         <header className="bg-teal-600">
             <nav className="flex justify-evenly">
