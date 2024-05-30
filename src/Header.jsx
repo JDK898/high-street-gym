@@ -1,20 +1,19 @@
 import { Link } from "react-router-dom"
-import "./Header.css"
 
 function Header() {
     // TODO: Accessability information 
+    // TODO: Colapse to a burger menu for mobile viewports
     return (
-        <header className="Nav">
-            <nav id="Navbar">
-                {/* TODO: Make the impage link to the home page */}
+        <header className="bg-teal-600">
+            <nav className="flex justify-evenly">
                 <Link to="/">
-                    <img src="images\image-regular.svg" alt="High street gym logo" />
+                    <img src="images\image-regular.svg" alt="High street gym logo" className="bg-none border-none size-auto min-h-12 pl-1" />
                 </Link>
-                <Link to="#">Home</Link>
-                <Link to="#">Blog</Link>
-                <Link to="#">Lessons</Link>
-                <Link to="#">About</Link>
-                <Link to="#">Sign In</Link>
+                <Link to="/" className="flex self-center px-2 py-1 border-2 border-none rounded text-white bg-yellow-500 hover:bg-yellow-600">Home</Link>
+                <Link to="/Blogs" className="flex self-center px-2 py-1 border-2 border-none rounded text-white bg-yellow-500 hover:bg-yellow-600">Blog</Link>
+                <Link to="/Lessons" className="flex self-center px-2 py-1 border-2 border-none rounded text-white bg-yellow-500 hover:bg-yellow-600">Lessons</Link>
+                <Link to="/About" className="flex self-center px-2 py-1 border-2 border-none rounded text-white bg-yellow-500 hover:bg-yellow-600">About</Link>
+                <Link to="/Login" className=" min-h-6 min-w-14 flex-nowrap flex self-center px-2 py-1 border-2 border-none rounded text-white bg-yellow-500 hover:bg-yellow-600">Sign In</Link>
             </nav>
         </header>
     )

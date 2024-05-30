@@ -1,5 +1,4 @@
 header {
-    /* margin: 0 8%; */
     background-color: #008b8b;
     justify-content: space-evenly;
 }
@@ -8,11 +7,11 @@ header {
     display: flex;
     justify-content: space-between;
 }
-#Navbar>a:last-child {
+/* #Navbar>a:last-child {
     min-height: 24px;
     min-width: 55px;
     flex-wrap: nowrap;
-}
+} */
 
 /* Specify the middle elements of the nav bar */
 /* #Navbar>*:not(:first-child):not(:last-child) {
