@@ -60,9 +60,26 @@ header {
 
 /* TODO: Media Queries For mobile burger menu */
 
-@media (max-width: 512px) {
+@media (max-width: 500px) {
     body {
         background-color: red;
     }
+    header {
+        flex-wrap: wrap;
+        height: 45px;
+    }
 
+    header > nav {
+        display: none;
+        order: 1;
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0 10px;
+        background-color: lightcyan;
+    }
+
+    header > button {
+        visibility: visible;
+    }
 }

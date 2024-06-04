@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Header from "./Header.jsx"
+import Header from "./components/Header.jsx"
 import Footer from "./components/Footer.jsx"
 import Classes from "./components/tile/lessontyl.jsx"
 import Filter from "./components/Filter.jsx"

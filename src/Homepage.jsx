@@ -1,5 +1,5 @@
 import "./Homepage.css"
-import Header from "./Header"
+import Header from "./components/Header"
 import Tile from "./components/tile/Tile"
 import Footer from "./components/Footer"
 

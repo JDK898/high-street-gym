@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Header from "./Header"
+import Header from "./components/Header.jsx"
 import Footer from "./components/Footer.jsx"
 import Details from "./components/Forms/Clientforms.jsx"
 // import "/Signup.css"
