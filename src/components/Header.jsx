@@ -11,7 +11,7 @@ function Header() {
 
             <nav className="flex justify-evenly max-sm:flex-col w-full">
                     <div className="max-sm:flex-row max-sm:justify-evenly flex max-sm:w-full">
-                        <Link to="/" className="ml-10 max-sm:-ml-10s">
+                        <Link to="/" className="ml-10 max-sm:-ml-10">
                             <img src="images\image-regular.svg" alt="High street gym logo" className="bg-none border-none size-auto min-h-12 pl-1 max-sm:max-h-5" />
                         </Link>
 
