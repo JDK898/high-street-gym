@@ -1,6 +1,7 @@
-const navItems = document.getElementById("nav-items")
 
 export function onToggleMenu() {
+    const navItems = document.getElementById("nav-items")
+
     console.log("Toggle menu!")
 
     if (navItems.style.display == "none"
