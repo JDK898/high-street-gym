@@ -15,7 +15,7 @@ import About from './About.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/high-street-gym/",
+    path: "/",
     element: <Homepage/>
   },
   {
