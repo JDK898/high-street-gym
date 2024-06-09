@@ -32,13 +32,6 @@ function Header() {
     )
 }
 
-{/* <div className="max-sm:flex flex-col">
-<Link to="/" className="flex self-center px-2 py-1 border-2 border-none rounded text-white bg-yellow-500 hover:bg-yellow-600 max-sm:mt-2 ">Home</Link>
-<Link to="/Blogs" className="flex self-center px-2 py-1 border-2 border-none rounded text-white bg-yellow-500 hover:bg-yellow-600 max-sm:mt-2">Blog</Link>
-<Link to="/Lessons" className="flex self-center px-2 py-1 border-2 border-none rounded text-white bg-yellow-500 hover:bg-yellow-600 max-sm:mt-2">Lessons</Link>
-<Link to="/About" className="flex self-center px-2 py-1 border-2 border-none rounded text-white bg-yellow-500 hover:bg-yellow-600 max-sm:mt-2">About</Link>
-<Link to="/Login" className="min-h-6 min-w-14 flex-nowrap flex self-center px-2 py-1 border-2 border-none rounded text-white bg-yellow-500 hover:bg-yellow-600 max-sm:mt-2">Sign In</Link>
-</div> */}
 
 export default Header
 
